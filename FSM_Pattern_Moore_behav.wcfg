@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FSM_Pattern_Moore_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FSM_Pattern_Moore" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2600000001fs"></ZoomEndTime>
+      <Cursor1Time time="1805000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/FSM_Pattern_Moore/din" type="logic">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/Sin" type="array">
+      <obj_property name="ElementShortName">Sin[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Sin[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/S1" type="array">
+      <obj_property name="ElementShortName">S1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/S10" type="array">
+      <obj_property name="ElementShortName">S10[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S10[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/S101" type="array">
+      <obj_property name="ElementShortName">S101[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S101[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSM_Pattern_Moore/S1011" type="array">
+      <obj_property name="ElementShortName">S1011[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S1011[2:0]</obj_property>
+   </wvobject>
+</wave_config>
